@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Munnar Reviews</title>
+    <link rel="stylesheet" href="five.css">
+</head>
+<body>
+    <div class="container">
+        <section class="photo-gallery">
+            <div class="photo large"></div>
+            <div class="photo small"></div>
+            <div class="photo smalll"></div>
+            <div class="photo mediumm"></div>
+            <div class="photo medium"></div>
+        </section>
+        <section class="reviews">
+            <h2>User Reviews</h2>
+            <div class="review-list">
+                <div class="review">
+                    <p class="review-text">Great stay, wonderful place.. Literally PARADISE!</p>
+                    <p class="review-rating">Rating: ⭐⭐⭐⭐⭐</p>
+                </div>
+                <div class="review">
+                    <p class="review-text">Why did i not find it earlier...wow!!! Highly recommended!</p>
+                    <p class="review-rating">Rating: ⭐⭐⭐⭐</p>
+                </div>
+            </div>
+            <h3>Add Your Review</h3>
+            <form id="reviewForm">
+                <textarea id="reviewText" placeholder="Write your review..." required></textarea>
+                <select id="reviewRating" required>
+                    <option value="" disabled selected>Rate your stay</option>
+                    <option value="1">⭐</option>
+                    <option value="2">⭐⭐</option>
+                    <option value="3">⭐⭐⭐</option>
+                    <option value="4">⭐⭐⭐⭐</option>
+                    <option value="5">⭐⭐⭐⭐⭐</option>
+                </select>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+    <script src="five.js"></script>
+</body>
+</html>
+

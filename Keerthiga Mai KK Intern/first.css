@@ -1,0 +1,231 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background: url('http://coconutresortmunnar.com/wp-content/uploads/2018/11/munnar-photos-1-2.jpg') no-repeat center center fixed;
+}
+
+.Munnar {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    font-size: 45px;
+}
+
+.container {
+    /* position: fixed; */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.butt {
+
+    float: right;
+    padding: 30px;
+}
+
+.map {
+    padding-top: 2cm;
+    height: 15cm;
+    justify-content: center;
+    align-items: center;
+    padding-left: 7cm;
+}
+
+
+header {
+    background-color: #047a0ee9;
+    color: white;
+    padding: 10px 0;
+    background-size: contain;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    background-image: url('http://1.bp.blogspot.com/-zLz7QCv68kM/Uy2D7pnJloI/AAAAAAAACZA/1JoZ1DWASN0/s1600/Munnar_Hill_Station.JPG');
+    background-size: fill;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+
+.section {
+    padding: 40px 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 50px;
+    border-radius: cm;
+}
+
+.card {
+    background-color: white;
+    padding: 110px;
+    height: 3cm;
+    border-radius: 100px;
+    color: azure;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: scale(1.2);
+}
+
+
+.card h3 {
+    margin-top: 1cm;
+    text-align: center;
+}
+
+#one {
+    background-image: url('http://upload.wikimedia.org/wikipedia/commons/c/c5/Munnar_Tea_Plantation.jpg');
+    background-repeat: none;
+    background-size: cover;
+}
+
+#two {
+    background-image: url('https://static.wixstatic.com/media/994eac_02526736472d4470ab1f4f5a43c59895~mv2.jpg/v1/fill/w_1000,h_667,al_c,q_85,usm_0.66_1.00_0.01/994eac_02526736472d4470ab1f4f5a43c59895~mv2.jpg');
+    background-repeat: none;
+    background-size: cover;
+}
+
+#three {
+    background-image: url('https://irisholidays.com/keralatourism/wp-content/uploads/2013/10/pothanmedu-view-point-munnar.gif');
+    background-repeat: none;
+    background-size: cover;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+
+.button:hover {
+    background-color: #45a049;
+}
+
+
+.box-container {
+    width: 500px;
+    height: 400px;
+    background-color: rgba(206, 225, 132, 0.285);
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 152%;
+    right: 200px;
+    transform: translateY(-50%);
+    display: inline;
+
+}
+
+.box-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #3348b3;
+}
+
+.box-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.box-container ul li {
+    margin-bottom: 15px;
+}
+
+.box-container ul li a {
+    text-decoration: dotted;
+    color: #333;
+    display: block;
+    padding: 12px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    background-color: #f8f8f8;
+}
+
+.box-container ul li a:hover {
+    background-color: #54b9549d;
+}
+
+footer {
+    background-color: #03340779;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-icons {
+    margin-bottom: 20px;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icon img {
+    width: 60px;
+    height: 60px;
+    transition: transform 0.3s ease;  
+}
+
+.social-icon img:hover {
+    transform: scale(1.2);
+}
+
+.container h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: xx-large;
+}
+
+.butt {
+    color: darkgoldenrod;
+}
+
+.butt:hover {
+    background-color: rgb(117, 212, 73);
+}
+
+.map {
+    padding-left: 3.5cm;
+}
+
+.sim {
+    height: 13cm;
+    width: 15cm;
+    padding-left: 2cm;
+}
